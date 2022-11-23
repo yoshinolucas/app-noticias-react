@@ -1,0 +1,45 @@
+.criar-noticia {
+    border-radius: 16px;
+    box-shadow: 6px 8px 14px rgb(189, 189, 189);
+    padding: 24px;
+    margin: 32px;
+    background: rgb(236, 236, 236);
+}
+
+.criar-noticia div {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.criar-noticia label {
+    position: relative;
+    top: 7px;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.criar-noticia input {
+    padding: 8px 32px;
+    border-radius: 16px;
+    border: .25px solid rgb(228, 228, 228);
+    box-shadow: 6px 6px 10px rgb(226, 226, 226);
+}
+
+.criar-noticia button {
+    padding: 16px 32px;
+    margin-top: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    background: rgb(12, 151, 82);
+    color: aliceblue;
+    font-size: 18px;
+    transition: 0.3s
+}
+
+.criar-noticia button:hover {
+    background: rgb(16, 80, 48);
+    scale: 1.1;
+}
+

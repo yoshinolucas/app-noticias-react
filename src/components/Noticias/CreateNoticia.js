@@ -30,7 +30,7 @@ const CreateNoticia = () => {
     return (
         <>
             <h1>Criar Notícia</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} class="criar-noticia">
                 <div>
                     <label>Título: </label>
                     <input type="text" name="titulo" onChange={handleChange} />
@@ -40,14 +40,17 @@ const CreateNoticia = () => {
                     <input type="text" name="descricao" onChange={handleChange} />
                 </div>
                 <div>
-                    <label>Conteudo: </label>
+                    <label>Conteúdo: </label>
                     <input type="text" name="conteudo" onChange={handleChange} />
                 </div>
                 <div>
                     <label>URL da Imagem: </label>
                     <input type="text" name="imagem" onChange={handleChange} />
                 </div>
-                <button type="submit">Salvar</button>
+                <div>
+                    <button type="submit">Salvar</button>
+                </div>
+                
             </form>
         </>
     )
